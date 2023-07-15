@@ -1,0 +1,4 @@
+/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles/test.dir
+/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles/rnet.dir
