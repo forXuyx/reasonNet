@@ -242,6 +242,33 @@ test/test_fill_reshape.cpp.s:
 	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_fill_reshape.cpp.s
 .PHONY : test/test_fill_reshape.cpp.s
 
+test/test_get_size.o: test/test_get_size.cpp.o
+
+.PHONY : test/test_get_size.o
+
+# target to build an object file
+test/test_get_size.cpp.o:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_get_size.cpp.o
+.PHONY : test/test_get_size.cpp.o
+
+test/test_get_size.i: test/test_get_size.cpp.i
+
+.PHONY : test/test_get_size.i
+
+# target to preprocess a source file
+test/test_get_size.cpp.i:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_get_size.cpp.i
+.PHONY : test/test_get_size.cpp.i
+
+test/test_get_size.s: test/test_get_size.cpp.s
+
+.PHONY : test/test_get_size.s
+
+# target to generate assembly for a file
+test/test_get_size.cpp.s:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_get_size.cpp.s
+.PHONY : test/test_get_size.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -264,6 +291,9 @@ help:
 	@echo "... test/test_fill_reshape.o"
 	@echo "... test/test_fill_reshape.i"
 	@echo "... test/test_fill_reshape.s"
+	@echo "... test/test_get_size.o"
+	@echo "... test/test_get_size.i"
+	@echo "... test/test_get_size.s"
 .PHONY : help
 
 

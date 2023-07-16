@@ -108,6 +108,9 @@
 		<Unit filename="/tmp/tmp.gwpx1gIx6c/test/test_fill_reshape.cpp">
 			<Option target="rnet"/>
 		</Unit>
+		<Unit filename="/tmp/tmp.gwpx1gIx6c/test/test_get_size.cpp">
+			<Option target="rnet"/>
+		</Unit>
 		<Unit filename="/tmp/tmp.gwpx1gIx6c/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

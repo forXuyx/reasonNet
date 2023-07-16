@@ -1,7 +1,4 @@
 /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /tmp/tmp.gwpx1gIx6c -B /tmp/tmp.gwpx1gIx6c/cmake-build-debug
--- Found OpenMP_C: -fopenmp  
--- Found OpenMP_CXX: -fopenmp  
--- Found OpenMP: TRUE   
 -- A library with LAPACK API found.
 -- Configuring done
 -- Generating done
