@@ -215,6 +215,33 @@ test/test_create_tensor.cpp.s:
 	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_create_tensor.cpp.s
 .PHONY : test/test_create_tensor.cpp.s
 
+test/test_fill_reshape.o: test/test_fill_reshape.cpp.o
+
+.PHONY : test/test_fill_reshape.o
+
+# target to build an object file
+test/test_fill_reshape.cpp.o:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_fill_reshape.cpp.o
+.PHONY : test/test_fill_reshape.cpp.o
+
+test/test_fill_reshape.i: test/test_fill_reshape.cpp.i
+
+.PHONY : test/test_fill_reshape.i
+
+# target to preprocess a source file
+test/test_fill_reshape.cpp.i:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_fill_reshape.cpp.i
+.PHONY : test/test_fill_reshape.cpp.i
+
+test/test_fill_reshape.s: test/test_fill_reshape.cpp.s
+
+.PHONY : test/test_fill_reshape.s
+
+# target to generate assembly for a file
+test/test_fill_reshape.cpp.s:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_fill_reshape.cpp.s
+.PHONY : test/test_fill_reshape.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -234,6 +261,9 @@ help:
 	@echo "... test/test_create_tensor.o"
 	@echo "... test/test_create_tensor.i"
 	@echo "... test/test_create_tensor.s"
+	@echo "... test/test_fill_reshape.o"
+	@echo "... test/test_fill_reshape.i"
+	@echo "... test/test_fill_reshape.s"
 .PHONY : help
 
 

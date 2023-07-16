@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/data/tensor.hpp
+armadillo
+-
+memory
+-
+vector
+-
+
+/tmp/tmp.gwpx1gIx6c/main.cpp
+glog/logging.h
+-
+gtest/gtest.h
+-
+iostream
+-
+
+/tmp/tmp.gwpx1gIx6c/source/tensor.cpp
+data/tensor.hpp
+/tmp/tmp.gwpx1gIx6c/source/data/tensor.hpp
+glog/logging.h
+-
+memory
+-
+numeric
+-
+
+/tmp/tmp.gwpx1gIx6c/test/test_create_tensor.cpp
+data/tensor.hpp
+/tmp/tmp.gwpx1gIx6c/test/data/tensor.hpp
+glog/logging.h
+-
+gtest/gtest.h
+-
+

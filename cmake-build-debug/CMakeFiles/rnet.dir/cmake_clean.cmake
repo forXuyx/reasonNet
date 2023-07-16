@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/rnet.dir/main.cpp.o"
   "CMakeFiles/rnet.dir/source/tensor.cpp.o"
   "CMakeFiles/rnet.dir/test/test_create_tensor.cpp.o"
+  "CMakeFiles/rnet.dir/test/test_fill_reshape.cpp.o"
   "rnet"
   "rnet.pdb"
 )
