@@ -14,7 +14,7 @@ memory
 vector
 -
 
-/tmp/tmp.gwpx1gIx6c/test/test_transform.cpp
+/tmp/tmp.gwpx1gIx6c/test/test_flatten.cpp
 data/tensor.hpp
 /tmp/tmp.gwpx1gIx6c/test/data/tensor.hpp
 glog/logging.h

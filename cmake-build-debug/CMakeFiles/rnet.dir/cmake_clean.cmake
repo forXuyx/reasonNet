@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/rnet.dir/test/test_flatten.cpp.o"
   "CMakeFiles/rnet.dir/test/test_get_size.cpp.o"
   "CMakeFiles/rnet.dir/test/test_get_values.cpp.o"
+  "CMakeFiles/rnet.dir/test/test_padding.cpp.o"
   "CMakeFiles/rnet.dir/test/test_transform.cpp.o"
   "rnet"
   "rnet.pdb"

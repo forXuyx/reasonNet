@@ -323,6 +323,33 @@ test/test_get_values.cpp.s:
 	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_get_values.cpp.s
 .PHONY : test/test_get_values.cpp.s
 
+test/test_padding.o: test/test_padding.cpp.o
+
+.PHONY : test/test_padding.o
+
+# target to build an object file
+test/test_padding.cpp.o:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_padding.cpp.o
+.PHONY : test/test_padding.cpp.o
+
+test/test_padding.i: test/test_padding.cpp.i
+
+.PHONY : test/test_padding.i
+
+# target to preprocess a source file
+test/test_padding.cpp.i:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_padding.cpp.i
+.PHONY : test/test_padding.cpp.i
+
+test/test_padding.s: test/test_padding.cpp.s
+
+.PHONY : test/test_padding.s
+
+# target to generate assembly for a file
+test/test_padding.cpp.s:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_padding.cpp.s
+.PHONY : test/test_padding.cpp.s
+
 test/test_transform.o: test/test_transform.cpp.o
 
 .PHONY : test/test_transform.o
@@ -381,6 +408,9 @@ help:
 	@echo "... test/test_get_values.o"
 	@echo "... test/test_get_values.i"
 	@echo "... test/test_get_values.s"
+	@echo "... test/test_padding.o"
+	@echo "... test/test_padding.i"
+	@echo "... test/test_padding.s"
 	@echo "... test/test_transform.o"
 	@echo "... test/test_transform.i"
 	@echo "... test/test_transform.s"
