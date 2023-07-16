@@ -242,6 +242,33 @@ test/test_fill_reshape.cpp.s:
 	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_fill_reshape.cpp.s
 .PHONY : test/test_fill_reshape.cpp.s
 
+test/test_flatten.o: test/test_flatten.cpp.o
+
+.PHONY : test/test_flatten.o
+
+# target to build an object file
+test/test_flatten.cpp.o:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_flatten.cpp.o
+.PHONY : test/test_flatten.cpp.o
+
+test/test_flatten.i: test/test_flatten.cpp.i
+
+.PHONY : test/test_flatten.i
+
+# target to preprocess a source file
+test/test_flatten.cpp.i:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_flatten.cpp.i
+.PHONY : test/test_flatten.cpp.i
+
+test/test_flatten.s: test/test_flatten.cpp.s
+
+.PHONY : test/test_flatten.s
+
+# target to generate assembly for a file
+test/test_flatten.cpp.s:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_flatten.cpp.s
+.PHONY : test/test_flatten.cpp.s
+
 test/test_get_size.o: test/test_get_size.cpp.o
 
 .PHONY : test/test_get_size.o
@@ -345,6 +372,9 @@ help:
 	@echo "... test/test_fill_reshape.o"
 	@echo "... test/test_fill_reshape.i"
 	@echo "... test/test_fill_reshape.s"
+	@echo "... test/test_flatten.o"
+	@echo "... test/test_flatten.i"
+	@echo "... test/test_flatten.s"
 	@echo "... test/test_get_size.o"
 	@echo "... test/test_get_size.i"
 	@echo "... test/test_get_size.s"

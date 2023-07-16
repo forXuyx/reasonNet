@@ -18,3 +18,6 @@ CMakeFiles/rnet.dir/test/test_get_size.cpp.o: ../test/test_get_size.cpp
 CMakeFiles/rnet.dir/test/test_get_values.cpp.o: ../include/data/tensor.hpp
 CMakeFiles/rnet.dir/test/test_get_values.cpp.o: ../test/test_get_values.cpp
 
+CMakeFiles/rnet.dir/test/test_transform.cpp.o: ../include/data/tensor.hpp
+CMakeFiles/rnet.dir/test/test_transform.cpp.o: ../test/test_transform.cpp
+
