@@ -296,6 +296,33 @@ test/test_get_values.cpp.s:
 	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_get_values.cpp.s
 .PHONY : test/test_get_values.cpp.s
 
+test/test_transform.o: test/test_transform.cpp.o
+
+.PHONY : test/test_transform.o
+
+# target to build an object file
+test/test_transform.cpp.o:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_transform.cpp.o
+.PHONY : test/test_transform.cpp.o
+
+test/test_transform.i: test/test_transform.cpp.i
+
+.PHONY : test/test_transform.i
+
+# target to preprocess a source file
+test/test_transform.cpp.i:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_transform.cpp.i
+.PHONY : test/test_transform.cpp.i
+
+test/test_transform.s: test/test_transform.cpp.s
+
+.PHONY : test/test_transform.s
+
+# target to generate assembly for a file
+test/test_transform.cpp.s:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_transform.cpp.s
+.PHONY : test/test_transform.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -324,6 +351,9 @@ help:
 	@echo "... test/test_get_values.o"
 	@echo "... test/test_get_values.i"
 	@echo "... test/test_get_values.s"
+	@echo "... test/test_transform.o"
+	@echo "... test/test_transform.i"
+	@echo "... test/test_transform.s"
 .PHONY : help
 
 

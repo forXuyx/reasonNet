@@ -114,6 +114,9 @@
 		<Unit filename="/tmp/tmp.gwpx1gIx6c/test/test_get_values.cpp">
 			<Option target="rnet"/>
 		</Unit>
+		<Unit filename="/tmp/tmp.gwpx1gIx6c/test/test_transform.cpp">
+			<Option target="rnet"/>
+		</Unit>
 		<Unit filename="/tmp/tmp.gwpx1gIx6c/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
