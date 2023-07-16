@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/rnet.dir/test/test_create_tensor.cpp.o"
   "CMakeFiles/rnet.dir/test/test_fill_reshape.cpp.o"
   "CMakeFiles/rnet.dir/test/test_get_size.cpp.o"
+  "CMakeFiles/rnet.dir/test/test_get_values.cpp.o"
   "rnet"
   "rnet.pdb"
 )

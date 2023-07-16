@@ -269,6 +269,33 @@ test/test_get_size.cpp.s:
 	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_get_size.cpp.s
 .PHONY : test/test_get_size.cpp.s
 
+test/test_get_values.o: test/test_get_values.cpp.o
+
+.PHONY : test/test_get_values.o
+
+# target to build an object file
+test/test_get_values.cpp.o:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_get_values.cpp.o
+.PHONY : test/test_get_values.cpp.o
+
+test/test_get_values.i: test/test_get_values.cpp.i
+
+.PHONY : test/test_get_values.i
+
+# target to preprocess a source file
+test/test_get_values.cpp.i:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_get_values.cpp.i
+.PHONY : test/test_get_values.cpp.i
+
+test/test_get_values.s: test/test_get_values.cpp.s
+
+.PHONY : test/test_get_values.s
+
+# target to generate assembly for a file
+test/test_get_values.cpp.s:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_get_values.cpp.s
+.PHONY : test/test_get_values.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -294,6 +321,9 @@ help:
 	@echo "... test/test_get_size.o"
 	@echo "... test/test_get_size.i"
 	@echo "... test/test_get_size.s"
+	@echo "... test/test_get_values.o"
+	@echo "... test/test_get_values.i"
+	@echo "... test/test_get_values.s"
 .PHONY : help
 
 
