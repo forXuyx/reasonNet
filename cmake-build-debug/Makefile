@@ -161,6 +161,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+source/load_data.o: source/load_data.cpp.o
+
+.PHONY : source/load_data.o
+
+# target to build an object file
+source/load_data.cpp.o:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/source/load_data.cpp.o
+.PHONY : source/load_data.cpp.o
+
+source/load_data.i: source/load_data.cpp.i
+
+.PHONY : source/load_data.i
+
+# target to preprocess a source file
+source/load_data.cpp.i:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/source/load_data.cpp.i
+.PHONY : source/load_data.cpp.i
+
+source/load_data.s: source/load_data.cpp.s
+
+.PHONY : source/load_data.s
+
+# target to generate assembly for a file
+source/load_data.cpp.s:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/source/load_data.cpp.s
+.PHONY : source/load_data.cpp.s
+
 source/tensor.o: source/tensor.cpp.o
 
 .PHONY : source/tensor.o
@@ -187,6 +214,33 @@ source/tensor.s: source/tensor.cpp.s
 source/tensor.cpp.s:
 	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/source/tensor.cpp.s
 .PHONY : source/tensor.cpp.s
+
+source/tensor_utils.o: source/tensor_utils.cpp.o
+
+.PHONY : source/tensor_utils.o
+
+# target to build an object file
+source/tensor_utils.cpp.o:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/source/tensor_utils.cpp.o
+.PHONY : source/tensor_utils.cpp.o
+
+source/tensor_utils.i: source/tensor_utils.cpp.i
+
+.PHONY : source/tensor_utils.i
+
+# target to preprocess a source file
+source/tensor_utils.cpp.i:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/source/tensor_utils.cpp.i
+.PHONY : source/tensor_utils.cpp.i
+
+source/tensor_utils.s: source/tensor_utils.cpp.s
+
+.PHONY : source/tensor_utils.s
+
+# target to generate assembly for a file
+source/tensor_utils.cpp.s:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/source/tensor_utils.cpp.s
+.PHONY : source/tensor_utils.cpp.s
 
 test/test_create_tensor.o: test/test_create_tensor.cpp.o
 
@@ -323,6 +377,33 @@ test/test_get_values.cpp.s:
 	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_get_values.cpp.s
 .PHONY : test/test_get_values.cpp.s
 
+test/test_model.o: test/test_model.cpp.o
+
+.PHONY : test/test_model.o
+
+# target to build an object file
+test/test_model.cpp.o:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_model.cpp.o
+.PHONY : test/test_model.cpp.o
+
+test/test_model.i: test/test_model.cpp.i
+
+.PHONY : test/test_model.i
+
+# target to preprocess a source file
+test/test_model.cpp.i:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_model.cpp.i
+.PHONY : test/test_model.cpp.i
+
+test/test_model.s: test/test_model.cpp.s
+
+.PHONY : test/test_model.s
+
+# target to generate assembly for a file
+test/test_model.cpp.s:
+	$(MAKE) -f CMakeFiles/rnet.dir/build.make CMakeFiles/rnet.dir/test/test_model.cpp.s
+.PHONY : test/test_model.cpp.s
+
 test/test_padding.o: test/test_padding.cpp.o
 
 .PHONY : test/test_padding.o
@@ -390,9 +471,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... source/load_data.o"
+	@echo "... source/load_data.i"
+	@echo "... source/load_data.s"
 	@echo "... source/tensor.o"
 	@echo "... source/tensor.i"
 	@echo "... source/tensor.s"
+	@echo "... source/tensor_utils.o"
+	@echo "... source/tensor_utils.i"
+	@echo "... source/tensor_utils.s"
 	@echo "... test/test_create_tensor.o"
 	@echo "... test/test_create_tensor.i"
 	@echo "... test/test_create_tensor.s"
@@ -408,6 +495,9 @@ help:
 	@echo "... test/test_get_values.o"
 	@echo "... test/test_get_values.i"
 	@echo "... test/test_get_values.s"
+	@echo "... test/test_model.o"
+	@echo "... test/test_model.i"
+	@echo "... test/test_model.s"
 	@echo "... test/test_padding.o"
 	@echo "... test/test_padding.i"
 	@echo "... test/test_padding.s"

@@ -21,6 +21,9 @@ CMakeFiles/rnet.dir/test/test_get_size.cpp.o
 CMakeFiles/rnet.dir/test/test_get_values.cpp.o
  ../include/data/tensor.hpp
  /tmp/tmp.gwpx1gIx6c/test/test_get_values.cpp
+CMakeFiles/rnet.dir/test/test_padding.cpp.o
+ ../include/data/tensor.hpp
+ /tmp/tmp.gwpx1gIx6c/test/test_padding.cpp
 CMakeFiles/rnet.dir/test/test_transform.cpp.o
  ../include/data/tensor.hpp
  /tmp/tmp.gwpx1gIx6c/test/test_transform.cpp

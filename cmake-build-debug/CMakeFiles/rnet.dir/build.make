@@ -135,9 +135,22 @@ CMakeFiles/rnet.dir/test/test_get_values.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rnet.dir/test/test_get_values.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.gwpx1gIx6c/test/test_get_values.cpp -o CMakeFiles/rnet.dir/test/test_get_values.cpp.s
 
+CMakeFiles/rnet.dir/test/test_model.cpp.o: CMakeFiles/rnet.dir/flags.make
+CMakeFiles/rnet.dir/test/test_model.cpp.o: ../test/test_model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/rnet.dir/test/test_model.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rnet.dir/test/test_model.cpp.o -c /tmp/tmp.gwpx1gIx6c/test/test_model.cpp
+
+CMakeFiles/rnet.dir/test/test_model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rnet.dir/test/test_model.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.gwpx1gIx6c/test/test_model.cpp > CMakeFiles/rnet.dir/test/test_model.cpp.i
+
+CMakeFiles/rnet.dir/test/test_model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rnet.dir/test/test_model.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.gwpx1gIx6c/test/test_model.cpp -o CMakeFiles/rnet.dir/test/test_model.cpp.s
+
 CMakeFiles/rnet.dir/test/test_padding.cpp.o: CMakeFiles/rnet.dir/flags.make
 CMakeFiles/rnet.dir/test/test_padding.cpp.o: ../test/test_padding.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/rnet.dir/test/test_padding.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/rnet.dir/test/test_padding.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rnet.dir/test/test_padding.cpp.o -c /tmp/tmp.gwpx1gIx6c/test/test_padding.cpp
 
 CMakeFiles/rnet.dir/test/test_padding.cpp.i: cmake_force
@@ -150,7 +163,7 @@ CMakeFiles/rnet.dir/test/test_padding.cpp.s: cmake_force
 
 CMakeFiles/rnet.dir/test/test_transform.cpp.o: CMakeFiles/rnet.dir/flags.make
 CMakeFiles/rnet.dir/test/test_transform.cpp.o: ../test/test_transform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/rnet.dir/test/test_transform.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/rnet.dir/test/test_transform.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rnet.dir/test/test_transform.cpp.o -c /tmp/tmp.gwpx1gIx6c/test/test_transform.cpp
 
 CMakeFiles/rnet.dir/test/test_transform.cpp.i: cmake_force
@@ -161,9 +174,22 @@ CMakeFiles/rnet.dir/test/test_transform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rnet.dir/test/test_transform.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.gwpx1gIx6c/test/test_transform.cpp -o CMakeFiles/rnet.dir/test/test_transform.cpp.s
 
+CMakeFiles/rnet.dir/source/load_data.cpp.o: CMakeFiles/rnet.dir/flags.make
+CMakeFiles/rnet.dir/source/load_data.cpp.o: ../source/load_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/rnet.dir/source/load_data.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rnet.dir/source/load_data.cpp.o -c /tmp/tmp.gwpx1gIx6c/source/load_data.cpp
+
+CMakeFiles/rnet.dir/source/load_data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rnet.dir/source/load_data.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.gwpx1gIx6c/source/load_data.cpp > CMakeFiles/rnet.dir/source/load_data.cpp.i
+
+CMakeFiles/rnet.dir/source/load_data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rnet.dir/source/load_data.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.gwpx1gIx6c/source/load_data.cpp -o CMakeFiles/rnet.dir/source/load_data.cpp.s
+
 CMakeFiles/rnet.dir/source/tensor.cpp.o: CMakeFiles/rnet.dir/flags.make
 CMakeFiles/rnet.dir/source/tensor.cpp.o: ../source/tensor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/rnet.dir/source/tensor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/rnet.dir/source/tensor.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rnet.dir/source/tensor.cpp.o -c /tmp/tmp.gwpx1gIx6c/source/tensor.cpp
 
 CMakeFiles/rnet.dir/source/tensor.cpp.i: cmake_force
@@ -174,6 +200,19 @@ CMakeFiles/rnet.dir/source/tensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rnet.dir/source/tensor.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.gwpx1gIx6c/source/tensor.cpp -o CMakeFiles/rnet.dir/source/tensor.cpp.s
 
+CMakeFiles/rnet.dir/source/tensor_utils.cpp.o: CMakeFiles/rnet.dir/flags.make
+CMakeFiles/rnet.dir/source/tensor_utils.cpp.o: ../source/tensor_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/rnet.dir/source/tensor_utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rnet.dir/source/tensor_utils.cpp.o -c /tmp/tmp.gwpx1gIx6c/source/tensor_utils.cpp
+
+CMakeFiles/rnet.dir/source/tensor_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rnet.dir/source/tensor_utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.gwpx1gIx6c/source/tensor_utils.cpp > CMakeFiles/rnet.dir/source/tensor_utils.cpp.i
+
+CMakeFiles/rnet.dir/source/tensor_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rnet.dir/source/tensor_utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.gwpx1gIx6c/source/tensor_utils.cpp -o CMakeFiles/rnet.dir/source/tensor_utils.cpp.s
+
 # Object files for target rnet
 rnet_OBJECTS = \
 "CMakeFiles/rnet.dir/main.cpp.o" \
@@ -182,9 +221,12 @@ rnet_OBJECTS = \
 "CMakeFiles/rnet.dir/test/test_flatten.cpp.o" \
 "CMakeFiles/rnet.dir/test/test_get_size.cpp.o" \
 "CMakeFiles/rnet.dir/test/test_get_values.cpp.o" \
+"CMakeFiles/rnet.dir/test/test_model.cpp.o" \
 "CMakeFiles/rnet.dir/test/test_padding.cpp.o" \
 "CMakeFiles/rnet.dir/test/test_transform.cpp.o" \
-"CMakeFiles/rnet.dir/source/tensor.cpp.o"
+"CMakeFiles/rnet.dir/source/load_data.cpp.o" \
+"CMakeFiles/rnet.dir/source/tensor.cpp.o" \
+"CMakeFiles/rnet.dir/source/tensor_utils.cpp.o"
 
 # External object files for target rnet
 rnet_EXTERNAL_OBJECTS =
@@ -195,9 +237,12 @@ rnet: CMakeFiles/rnet.dir/test/test_fill_reshape.cpp.o
 rnet: CMakeFiles/rnet.dir/test/test_flatten.cpp.o
 rnet: CMakeFiles/rnet.dir/test/test_get_size.cpp.o
 rnet: CMakeFiles/rnet.dir/test/test_get_values.cpp.o
+rnet: CMakeFiles/rnet.dir/test/test_model.cpp.o
 rnet: CMakeFiles/rnet.dir/test/test_padding.cpp.o
 rnet: CMakeFiles/rnet.dir/test/test_transform.cpp.o
+rnet: CMakeFiles/rnet.dir/source/load_data.cpp.o
 rnet: CMakeFiles/rnet.dir/source/tensor.cpp.o
+rnet: CMakeFiles/rnet.dir/source/tensor_utils.cpp.o
 rnet: CMakeFiles/rnet.dir/build.make
 rnet: /usr/local/lib/libglog.so.0.7.0
 rnet: /usr/local/lib/libgtest.a
@@ -213,7 +258,7 @@ rnet: /usr/lib/x86_64-linux-gnu/libiomp5.so
 rnet: /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so
 rnet: /usr/lib/x86_64-linux-gnu/libpthread.so
 rnet: CMakeFiles/rnet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable rnet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.gwpx1gIx6c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable rnet"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rnet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
